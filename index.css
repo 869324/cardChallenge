@@ -69,11 +69,11 @@ img {
 
 @media (max-width: 800px) {
     main {
-      flex-direction: column;
+      flex-direction: column-reverse;
     }
 
     img {
-        width: 300px;
+        width: 90vw;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
     }
