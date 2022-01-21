@@ -56,14 +56,25 @@ p {
 
 img {
     position: relative;
-    top: 0px;
-    right: 0px;
     width: 470px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    opacity: 0.5;
 }
 
 #text {
     margin-left: 80px;
     margin-right: 80px;
 }
+
+@media (max-width: 800px) {
+    main {
+      flex-direction: column;
+    }
+
+    img {
+        width: 300px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+  }
